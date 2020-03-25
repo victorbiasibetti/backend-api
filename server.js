@@ -12,4 +12,4 @@ app.get('/', (request, response) => {
 })
 
 
-app.listen(4000, () => console.log('server on'));
+app.listen(process.env.PORT || 4000, () => console.log('server on'));
